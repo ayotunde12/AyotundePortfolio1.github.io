@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Vehicle Theft Analysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Vehicle Theft Analysis</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							
+			
+							
+							<li><a href="#" class="button primary">Navigate to Linkedin</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Vehicle Theft Analysis With SQL (Dark Mode)</h2>
+							<p>Uncovering regional and temporal crime trends through structured queries and data-driven insights.</p>
+						</header>
+						<div class="row gtr-150">
+							<div class="col-8 col-12-medium">
+
+								<!-- Content -->
+									<section id="content">
+										<img src="images/sql_veh1 (1).png" alt="SQL Vehicle Sample 1" class="image fit" />
+										<h3>Data Cleaning and Preparation</h3>
+										<p>I deleted duplicate vehicle theft records based on vehicle ID and theft date to prevent double-counting, and replaced missing region values with 'Unknown' to maintain data completeness, ensuring the dataset was accurate, clean and ready for analysis.</p>
+									</section>
+
+									<section id="content">
+										<img src="images/sql_veh1 (2).png" alt="SQL Vehicle Sample 2" class="image fit" />
+										<h3>Summary of Vehicle Thefts by Region</h3>
+										<p>Here, I grouped the data by region and counted the total number of thefts reported per region, then sorted the results in descending order to highlight the regions with the highest theft cases, helping to quickly identify and compare theft hotspots.</p>
+									</section>
+
+									<section id="content">
+										<img src="images/sql_veh1 (3).png" alt="SQL Vehicle Sample 3" class="image fit" />
+										<h3>Theft Rates Adjusted for Population</h3>
+										<p>After joining the theft data with regional population data to calculate theft rates per 100,000 people, the data was grouped by region and regions were ranked by their adjusted theft rates, allowing a fair comparison of theft risk across regions regardless of population size.
+										</p>
+									</section>
+
+									<section id="content">
+										<img src="images/sql_veh1 (4).png" alt="SQL Vehicle Sample 4" class="image fit" />
+										<h3>Monthly Trend Analysis</h3>
+										<p>By extracting the month from each theft date and grouping the data by month, the number of thefts occurring each month was counted to reveal monthly patterns, highlighting seasonal trends and identifying peak periods of theft activity.</p>
+									</section>
+
+								<!-- Content -->
+								<section id="content">
+									<img src="images/sql_veh1 (5).png" alt="SQL Vehicle Sample 5" class="image fit" />
+									<h3>Most Commonly Stolen Vehicle Models</h3>
+									<p>The theft records were grouped by vehicle model, and the number of thefts for each model was counted. The models were then sorted by the number of thefts in descending order, with the result limited to the top 10, identifying which vehicle models were most frequently targeted by thieves.</p>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+
+								<!-- Sidebar -->
+						
+										<section>
+											<a href="https://youtu.be/MQJc09QNgpk" class="image fit"><img src="images/Australia Theft analysis.png" alt="" /></a>
+											<h3>Key Takeaway & Next Steps</h3>
+											<p>This project strengthened my skills in data wrangling and visual analytics using Excel, PowerBI & SQL. It provided actionable insights into vehicle theft patterns, aiding security strategies. Next, I plan to integrate real-time data and apply predictive analytics to enhance the dashboard effectiveness in preventing future thefts.</p>
+											<footer>
+												<ul class="actions">
+													<li><a href="https://drive.google.com/uc?export=download&id=1lorJsGKHgoIMLLvL3OwcnrL2rwR00K6W" class="button">Download SQL Code</a></li>
+												</ul>
+											</footer>
+										</section>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
